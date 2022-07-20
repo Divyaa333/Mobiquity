@@ -1,11 +1,12 @@
 package TestRunner;
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src\\test\\resources\\features\\Rest_Assured.feature",
+        features = "src\\test\\resources\\features\\Soap.feature",
         glue = "StepDefinitions",
         plugin =
                 {
